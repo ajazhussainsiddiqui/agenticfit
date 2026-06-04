@@ -5,11 +5,10 @@
   <img src="https://img.shields.io/badge/LightGBM-FF9900?style=for-the-badge" />
   <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />  
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 </p>
 
 <h1 align="center">AgenticFit</h1>
-<p align="center"><b>Personalized intelligent Fitness & Nutrition Backend</b></p>
+<p align="center"><b>Production backend that pairs ML with multi-agent AI for personalized fitness intelligence.</b></p>
 
 <p align="center">
   <a href="https://agenticfit.vercel.app"><strong>🚀 Live App</strong></a> ·
@@ -51,8 +50,8 @@ I architected and implemented the entire backend: FastAPI routers, PostgreSQL sc
 
 | LLM Config | Landing Page | |
 |------------|--------------|---|
-| ![LLM Config](assets/screenshots/7-llm-config.png) | ![Landing](assets/screenshots/1-landing.png) | |
-| *BYOK: Gemini, OpenAI, Anthropic, Ollama, others* | *Product overview* | |
+| ![LLM Config](assets/screenshots/7-llm-config.png) | ![Landing](assets/screenshots/1-landing.png) |
+| *BYOK: Gemini, OpenAI, Anthropic, Ollama, others* | *Product landing page* | 
 
 
 ## What It Does
