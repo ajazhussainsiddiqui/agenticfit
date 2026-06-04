@@ -1,0 +1,18 @@
+{
+  "name": "AgenticFit",
+  "description": "AI-powered fitness tracking, workout planning, and nutrition analysis with guest-first architecture.",
+  "version": "1.0.0",
+  "author": "Ajaz",
+  "license": "MIT",
+  "homepage": " ",
+  "repository": "https://github.com/ajazhussainsiddiqui/agenticfit",
+  "keywords": ["fitness", "ai", "health", "workout", "nutrition", "agent", "llm", "rag", "react", "vite"],
+  "icon": "/logo.svg",
+  "requestFramePermissions": [],
+  "permissions": [],
+  "entry": "index.html",
+  "build": {
+    "command": "vite build",
+    "output": "dist"
+  }
+}

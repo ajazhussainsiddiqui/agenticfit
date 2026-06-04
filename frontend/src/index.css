@@ -1,0 +1,64 @@
+@import "@fontsource/geist-sans/400.css";
+@import "@fontsource/geist-sans/500.css";
+@import "@fontsource/geist-sans/700.css";
+@import "@fontsource/geist-sans/900.css";
+@import "@fontsource/geist-mono/400.css";
+@import "@fontsource/geist-mono/700.css";
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Geist Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-background: #020617; /* slate-950 */
+  --color-foreground: #f8fafc; /* slate-50 */
+  --color-card: #0f172a; /* slate-900 */
+  --color-card-foreground: #f8fafc; /* slate-50 */
+  --color-popover: #0f172a; /* slate-900 */
+  --color-popover-foreground: #f8fafc; /* slate-50 */
+  --color-primary: #bef264; /* lime-400 */
+  --color-primary-foreground: #020617; /* slate-950 */
+  --color-secondary: #1e293b; /* slate-800 */
+  --color-secondary-foreground: #cbd5e1; /* slate-300 */
+  --color-muted: #1e293b; /* slate-800 */
+  --color-muted-foreground: #94a3b8; /* slate-400 */
+  --color-accent: #1e293b; /* slate-800 */
+  --color-accent-foreground: #f8fafc; /* slate-50 */
+  --color-destructive: #f43f5e; /* rose-500 */
+  --color-destructive-foreground: #f8fafc; /* slate-50 */
+  --color-border: #1e293b; /* slate-800 */
+  --color-input: #1e293b; /* slate-800 */
+  --color-ring: #bef264; /* lime-400 */
+
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+  --radius-4xl: 2rem;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-50 font-sans antialiased;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@utility animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+@utility pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 1rem);
+}

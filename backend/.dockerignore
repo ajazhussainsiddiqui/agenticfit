@@ -1,0 +1,34 @@
+# Git and IDE
+
+.git
+.gitignore
+.vscode/
+
+
+# Python cache and environment
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.env.example
+
+
+# ML Training Artifacts & Data 
+
+Injury_risk_prediction/data/
+Injury_risk_prediction/mlruns/
+Injury_risk_prediction/notebooks/
+Injury_risk_prediction/mlflow.db
+Injury_risk_prediction/src/evaluate.py
+Injury_risk_prediction/src/train.py
+
+# Assorted local testing files
+
+workout_diet_planner/chat_assistant/test.html
+workout_diet_planner/db/exercise_data/
+workout_diet_planner/db/exercises_rag_push.py

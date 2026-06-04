@@ -1,0 +1,25 @@
+<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bob { animation: bob 0.35s infinite cubic-bezier(0.4, 0.0, 0.6, 1) alternate; }
+    .thigh { animation: thigh 1.4s infinite cubic-bezier(0.4, 0.0, 0.6, 1); transform-origin: 78px 95px; }
+    .calf { animation: calf 1.4s infinite cubic-bezier(0.4, 0.0, 0.6, 1); transform-origin: 78px 120px; }
+    .arm { animation: arm 1.4s infinite cubic-bezier(0.4, 0.0, 0.6, 1); transform-origin: 83px 60px; }
+    .delay { animation-delay: -0.7s; }
+    @keyframes bob { 0% { transform: translateY(-3.5px); } 100% { transform: translateY(3.5px); } }
+    @keyframes thigh { 0% { transform: rotate(-35deg); } 50% { transform: rotate(35deg); } 100% { transform: rotate(-35deg); } }
+    @keyframes calf { 0% { transform: rotate(5deg); } 25% { transform: rotate(25deg); } 50% { transform: rotate(85deg); } 75% { transform: rotate(105deg); } 100% { transform: rotate(5deg); } }
+    @keyframes arm { 0% { transform: rotate(35deg); } 50% { transform: rotate(-40deg); } 100% { transform: rotate(35deg); } }
+  </style>
+  <g transform="translate(80, 90) scale(1.3) translate(-80, -90)">
+    <g class="bob">
+      <g opacity="0.35">
+        <g class="arm delay"><line x1="83" y1="60" x2="83" y2="82" stroke="#bef264" stroke-width="10" stroke-linecap="round"/><g style="transform-origin:83px 82px;transform:rotate(-90deg)"><line x1="83" y1="82" x2="83" y2="102" stroke="#bef264" stroke-width="10" stroke-linecap="round"/></g></g>
+        <g class="thigh delay"><line x1="78" y1="95" x2="78" y2="120" stroke="#bef264" stroke-width="11" stroke-linecap="round"/><g class="calf delay"><line x1="78" y1="120" x2="78" y2="145" stroke="#bef264" stroke-width="10" stroke-linecap="round"/></g></g>
+      </g>
+      <line x1="83" y1="60" x2="78" y2="95" stroke="#bef264" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="85" cy="40" r="10.5" fill="#bef264"/>
+      <g class="thigh"><line x1="78" y1="95" x2="78" y2="120" stroke="#bef264" stroke-width="11" stroke-linecap="round"/><g class="calf"><line x1="78" y1="120" x2="78" y2="145" stroke="#bef264" stroke-width="10" stroke-linecap="round"/></g></g>
+      <g class="arm"><line x1="83" y1="60" x2="83" y2="82" stroke="#bef264" stroke-width="10" stroke-linecap="round"/><g style="transform-origin:83px 82px;transform:rotate(-90deg)"><line x1="83" y1="82" x2="83" y2="102" stroke="#bef264" stroke-width="10" stroke-linecap="round"/></g></g>
+    </g>
+  </g>
+</svg>
