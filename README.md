@@ -12,7 +12,7 @@
 <p align="center"><b>Personalized intelligent Fitness & Nutrition Backend</b></p>
 
 <p align="center">
-  <a href="https://agenticfit.vercel.com/"><strong>🚀 Live App</strong></a> ·
+  <a href="https://agenticfit.vercel.app"><strong>🚀 Live App</strong></a> ·
   <a href="https://huggingface.co/spaces/ajazhussainsiddiqui/fitness-nutrition-personalized-ai"><strong>🤗 HuggingFace Space</strong></a> ·
   <a href="#api-overview"><strong>📖 API Docs</strong></a> ·
   <a href="#getting-started"><strong>⚡ Quick Start</strong></a>
