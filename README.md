@@ -681,7 +681,7 @@ Keys are stored in Redis under `byok_{user_email}` with an `ex=86400` TTL. They 
 
 AgenticFit is currently live:          
 - **Backend**: [Hugging Face Spaces](https://huggingface.co/spaces/ajazhussainsiddiqui/fitness-nutrition-personalized-ai)
-- **Frontend**: [Vercel (React 19 + Vite)](https://agenticfit.vercel.com/)
+- **Frontend**: [Vercel (React 19 + Vite)](https://agenticfit.vercel.app)
 
 This split deployment keeps the API layer close to the GPU/ML resources while the frontend serves globally via Vercel's edge network. If you are deploying yourself:
 
