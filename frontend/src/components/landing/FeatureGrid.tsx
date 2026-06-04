@@ -29,7 +29,7 @@ const features = [
   {
     title: 'BYOK (Bring Your Own Key)',
     subtitle: 'Use Your Own AI Provider',
-    description: 'Connect OpenAI, Anthropic, HuggingFace, Ollama, or any other provider.\nNote: A built-in model is provided by default exclusively for the Chat Assistant (with a daily token limit and real-time usage tracking). Plan generation and vision requires your own API key.',
+    description: 'Connect OpenAI, Anthropic, Gemini, Groq or any other provider.\nNote: A built-in model is provided exclusively for the Chat Assistant (with a daily token limitation and tracking) and plan generation and vision requires your own API key.',
     icon: Key,
   },
   {

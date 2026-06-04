@@ -20,19 +20,20 @@ export function LandingPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <div className="flex items-center justify-between gap-4 sm:gap-6 px-4 pt-6 sm:pt-8 w-full max-w-7xl mx-auto">
-        <div className="flex items-center gap-3">
-          <div className="flex h-8 w-8 items-center justify-center rounded-[8px] bg-lime-400 font-bold text-slate-950 text-lg shadow-inner overflow-hidden" aria-hidden="true">
+      <div className="flex items-center justify-between gap-2 sm:gap-6 px-4 pt-6 sm:pt-8 w-full max-w-7xl mx-auto">
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          <div className="flex h-8 w-8 sm:h-8 sm:w-8 items-center justify-center rounded-[8px] bg-lime-400 font-bold text-slate-950 text-lg shadow-inner overflow-hidden shrink-0" aria-hidden="true">
             <Logo className="w-full h-full text-white" />
           </div>
-          <span className="text-2xl font-black italic uppercase tracking-tighter text-slate-50">AgenticFit</span>
+          <span className="text-[1.1rem] sm:text-2xl font-black italic uppercase tracking-tighter text-slate-50">AgenticFit</span>
         </div>
-        <div className="flex items-center gap-4 sm:gap-6">
+        <div className="flex items-center gap-2 sm:gap-6 shrink-0">
+          
           <a
             href="https://github.com/ajazhussainsiddiqui/agenticfit"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-full h-9 sm:h-9 px-3 sm:px-3 transition-all shadow-sm"
+            className="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-full h-8 sm:h-9 w-8 sm:w-auto justify-center sm:px-3 transition-all shadow-sm shrink-0"
             
             title="View on GitHub"
             aria-label="GitHub Repository"
@@ -40,6 +41,7 @@ export function LandingPage() {
             <Github className="w-4 h-4 sm:w-5 sm:h-5" />
             
           </a>
+
           {showAuthOptions && (
             <>
               <Link 
@@ -50,7 +52,7 @@ export function LandingPage() {
               </Link>
               <Link 
                 to="/signup" 
-                className="flex items-center justify-center border border-slate-700 rounded-xl h-9 sm:h-10 px-4 sm:px-6 bg-transparent text-white hover:bg-slate-800 transition-colors text-sm font-semibold whitespace-nowrap"
+                className="flex items-center justify-center border border-slate-700 rounded-xl h-8 sm:h-10 px-3 sm:px-6 bg-transparent text-white hover:bg-slate-800 transition-colors text-xs sm:text-sm font-semibold whitespace-nowrap shrink-0"
               >
                 Create Account
               </Link>
