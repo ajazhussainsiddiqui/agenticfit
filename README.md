@@ -8,7 +8,7 @@
 </p>
 
 <h1 align="center">AgenticFit</h1>
-<p align="center"><b>Production backend that pairs ML with multi-agent AI for personalized fitness intelligence.</b></p>
+<p align="center"><b>Powering personalized fitness through wearable-grade ML, advanced hybrid RAG, and multi-agent AI orchestration with Human-in-the-Loop approval.</b></p>
 
 <p align="center">
   <a href="https://agenticfit.vercel.app"><strong>🚀 Live App</strong></a> ·
